@@ -59,4 +59,5 @@ export interface ApiError {
     status: number;
     timestamp: string;
     path?: string;
+    retry_after?: number;
 }
